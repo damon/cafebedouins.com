@@ -1,134 +1,73 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<title>Cafe Bedouins - Austin, Texas</title> 
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<style type="text/css">
-	body
-	{
-		padding: 30px 0 0;
-		background: #FFF;
-		font: 100.01%/1.3 Helvetica,sans-serif;
-		text-align: center;
-		background-image:url(http://cafebedouins.com/hellsyeah.gif);
-		background-size:cover;
-        }
-        a:link    { color: #663300; text-decoration: underline; }
-        a:visited { color: #663300; }
-        a:active  { color: #663300; }
-        a:hover   { color: #000000; }
+	<title>Cafe Bedouins - Austin, Texas</title>
 	
-	div#box
-	{
-		width: 18em;
-		padding: 20px;
-		margin: 0 auto;
-		background: #EEEEEE;
-		color: #000;
-                align: center;
-      }
-div#topright {
-
-position: absolute;
-right: 0;
-top: 0;
-padding: 40px;
-display: block;
-width: 250px;
-height: 460px;
-text-decoration: none;
-}
-
-div#topleft {
-position: absolute;
-left: 0;
-top: 0;
-padding: 40px;
-display: block;
-height: 800px;
-width: 250px;
-text-decoration: none;}
-
-	h1
-	{
-		font: lighter 200% Helvetica,sans-serif;
-		color: #663300;
-	}
+	<!--CSS-->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bedouins.css">
 	
-	h1,p
-	{
-		margin: 0;
-		padding: 10px 20px;
-	}
-
-.info {
-border: 1px solid;
-color: #00529B;
-background-color: #BDE5F8;
-}
-
-</style> 
-										          
-<script type="text/javascript" src="niftycube.js" />
-<script type="text/javascript">
-  window.onload=function(){
-    Nifty("div#box","big");
-  }
-  function resizeWindow()
-  {
-    window.resizeTo(400,500)
-  }
-</script> 
-<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 </head>
+
 <body>
-<div id="box">
-	<a href="/"><h1>Cafe Bedouins</h1></a> 
-<p class="info">Central Austin, Tuesdays from 7-11pm, <a href="http://www.houndstoothcoffee.com/">Houndstooth Coffee</a> (42nd/Lamar)<br/>
-</p>	
-<p style="font-size: 75%">
-<em>It's a time to work on that personal project. A place to found that side business you've been thinking about. Finally get around to that open source project you want to help. To write that masterpiece you've been perfecting in your head.</em>
-</p>
+	<div class="container">
 
-<p>Tune in on Twitter <a href="https://mobile.twitter.com/search?q=cafebedouins&src=typd&f=realtime">cafebedouins</a></p>
+		<div class="row" >
+			<h1><a href="https://twitter.com/cafebedouins">Cafe Bedouins</a></h1>
+			<div class="details">
+				<h3>Central Austin</h3>
+				<h3>Tuesdays from 7-11pm</h3>
+				<h3> <a href="http://www.houndstoothcoffee.com">Houndstooth Coffee </a> (<a href="https://www.google.com/maps/place/Houndstooth+Coffee/@30.310536,-97.740056,17z/data=!3m1!4b1!4m2!3m1!1s0x8644ca62cb940f5d:0x53ffae78575d157a">42nd/Lamar</a>)</h3>
+			</div>
+		</div>
 
-</div>
+		<div class="row">
+			<h2>About</h2>
+			<div class="about">
+				<p>Cafe Bedouins is a time to work on that personal project.</p>
+				<ul>
+					<li>Found that side business you've been thinking about</li>
+					<li>Contribute to that open source project you've been wanting to help</li>
+					<li>Write that masterpiece you've been perfecting in your head</li>
+				</ul>
+				   
+			</div>
+		</div>
+		
+		<div class="row">
+			<div id="people"> 
+			<!--where the faces go-->
+			</div>
+		</div>
 
-<div id="topleft">
-</div>
-<div id="topright">
-<script>
-new TWTR.Widget({
- version: 2,
- type: 'search',
- search: 'cafebedouins',
- interval: 6000,
- title: 'Cafe Bedouins',
- subject: 'Kick It',
- width: 250,
- height: 460,
- theme: {
-   shell: {
-     background: '#663300',
-     color: '#ffffff'
-   },
-   tweets: {
-     background: '#ffffff',
-     color: '#444444',
-     links: '#663300'
-   }
- },
- features: {
-   scrollbar: false,
-   loop: false,
-   live: true,
-   hashtags: true,
-   timestamp: true,
-   avatars: true,
-   behavior: 'default'
- }
-}).render().start();
-</script>
-</div>
+		<div class="row">
+			<h3>Tune in on <a href="https://twitter.com/cafebedouins">Twitter</a>.</h3>
+		</div>
+
+		<div class="row">
+			<div class="footer">
+			<p>Made with <span class="love">love</span> in Austin, TX.</p>
+			</div>
+		</div>
+
+	</div>
+
+	<!--JS-->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="bedouins.js"></script>
+	
 </body>
 </html>
+
+<!--
+Cafe Bedouins
+
+Central Austin, 
+Tuesdays from 7-11pm, 
+Houndstooth Coffee (42nd/Lamar)
+
+It's a time to work on that personal project. A place to found that side business you've been thinking about. Finally get around to that open source project you want to help. To write that masterpiece you've been perfecting in your head.
+Tune in on Twitter cafebedouins
+-->

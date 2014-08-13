@@ -1,0 +1,78 @@
+body {
+	font-style: "helvetica-neue", sans-serif;
+}
+
+.row {
+
+}
+
+h1 {
+	font-style: "helvetica-neue", sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+h2 {
+	font-style: "helvetica-neue", sans-serif;
+	font-weight: 200;
+	text-align: center;
+	border-bottom: 1px solid #eee;
+}
+
+h3 {
+	font-style: "helvetica-neue", sans-serif;
+	font-weight: 200;
+	text-align: center;
+
+}
+
+a {
+	color: black;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #2f909b;
+}
+
+.container {
+	max-width: 500px;
+	background-color: #fff ;
+
+}
+
+.details {
+	background-color: #d6f0f3;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding-bottom: 10px;
+}
+
+.about {
+	text-align: left;
+	background-color: #fff;
+	font-weight: 400;
+}
+
+.about ul {
+	margin-bottom: 0px;
+}
+
+
+.face {
+	float: left;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #eee;
+	color: #b0b0b0;
+}
+
+.love {
+	text-transform: uppercase;
+}
+
