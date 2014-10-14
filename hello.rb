@@ -1,7 +1,8 @@
 require 'sinatra'
-require 'bedouins'
+#require 'bedouins'
 
 get '/' do
   send_file File.join(settings.public_folder, 'index.html')
-  Bedouins.execute
+  #Bedouins.execute
 end
+# TODO: do bedouins dynamic logic
