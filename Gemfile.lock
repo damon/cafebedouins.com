@@ -4,6 +4,8 @@ GEM
     activesupport (3.2.19)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
+    daemons (1.1.9)
+    eventmachine (1.0.3)
     grackle (0.3.0)
       json
       mime-types
@@ -20,8 +22,10 @@ GEM
       rack (~> 1.4)
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
-    sinatra-index (0.0.2)
-      sinatra
+    thin (1.6.3)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0)
+      rack (~> 1.0)
     tilt (1.4.1)
 
 PLATFORMS
@@ -31,4 +35,4 @@ DEPENDENCIES
   activesupport (~> 3.2.x)
   grackle (>= 0.3.0)
   sinatra
-  sinatra-index
+  thin
