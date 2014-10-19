@@ -8,5 +8,5 @@ get '/' do
 end
 
 get '/members.json' do
-  "{\"members\":[{\"name\":\"Mayer Seidman\",\"image_url\":\"http://pbs.twimg.com/profile_images/481833987430551552/oUzvpgPm_bigger.jpeg\",\"screen_name\":\"MayerSeidman\"}]"
+  "{\"members\":[{\"name\":\"Mayer Seidman\",\"image_url\":\"http://pbs.twimg.com/profile_images/481833987430551552/oUzvpgPm_bigger.jpeg\",\"screen_name\":\"MayerSeidman\"}]}"
 end
