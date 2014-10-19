@@ -5,7 +5,7 @@ require 'activesupport'
 
 class Bedouins
   def self.execute
-    fn = "members.csv"
+    fn = "public/members.csv"
 
     ignores = ["thirdprestigeco","capitalfactory","railsvitamins"]
 
@@ -17,6 +17,6 @@ class Bedouins
 
     h = {"members" => hashes.shuffle[0..19]}
 
-    File.open("members.json", 'w') { |file| file.write(h.to_json)}
+    File.open("public/members.json", 'w') { |file| file.write(h.to_json)}
   end
 end
