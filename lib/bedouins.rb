@@ -1,8 +1,12 @@
 #!/usr/bin/env ruby
 
+require 'csv'
+require 'active_support/core_ext'
+
 class Bedouins
   def self.execute
-    fn = "../public/members.csv"
+    fn = File.join(File.dirname(__FILE__), '../public/members.csv')
+    
 
     ignores = ["thirdprestigeco","capitalfactory","railsvitamins"]
 

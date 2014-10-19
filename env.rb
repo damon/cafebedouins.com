@@ -2,6 +2,7 @@
 
 require 'rubygems'
 require 'active_support'
+require './lib/bedouins'
 
 # require 'grackle'
 # require 'yaml'
