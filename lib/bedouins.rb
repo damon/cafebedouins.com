@@ -14,6 +14,6 @@ class Bedouins
 
     h = {"members" => hashes.shuffle[0..19]}
 
-    File.open("../public/members.json", 'w') { |file| file.write(h.to_json)}
+    h.to_json
   end
 end
