@@ -1,8 +1,8 @@
 require 'sinatra'
-require_relative 'bedouins'
+
+load File.join(File.dirname(__FILE__), 'env.rb')
 
 get '/' do
   send_file File.join(settings.public_folder, 'index.html')
   Bedouins.execute
 end
-# TODO: do bedouins dynamic logic
