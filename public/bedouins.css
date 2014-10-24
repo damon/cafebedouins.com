@@ -3,8 +3,8 @@ body {
 }
 
 .row {
-margin-left: 4px;
-margin-right: 4px;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 h1 {
@@ -37,9 +37,8 @@ a:hover {
 }
 
 .container {
-	max-width: 508px;
+	max-width: 532px;
 	background-color: #fff ;
-
 }
 
 .details {
