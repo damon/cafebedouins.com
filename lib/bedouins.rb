@@ -8,7 +8,7 @@ class Bedouins
     fn = File.join(File.dirname(__FILE__), '../public/members.csv')
     
 
-    ignores = ["thirdprestigeco","capitalfactory","railsvitamins"]
+    ignores = ["thirdprestigeco","capitalfactory","railsvitamins","thirteen23"]
 
     hashes = []
     CSV.foreach(fn, :headers => true, :col_sep => ',') do |row|
